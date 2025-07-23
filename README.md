@@ -3,8 +3,8 @@ Dockerfile and related files for COVID19 ORF variants extract pipeline
 
 Usage
 
-1. Create a directory
-2. Put all file to the directory (NC_045512.2.fasta, Dockerfile, PipeLine.sh)
+1. Create a directory ( E.G. SNP2VAR )
+2. Put all files to the directory (NC_045512.2.fasta, Dockerfile, PipeLine.sh)
 3. Build image with this command "docker build -t snpeffpipeline:v1 . "
 4. Place target file for extract ORF changings in the directory (MockInput.fasta)
 5. Run command
